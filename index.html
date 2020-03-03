@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link>
+    <title prova_2GP></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <style type="text/css">
+        *{
+           margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root{
+            --gris:#9b9c98;
+            --grisoscuro: #2e362e;
+            --tipografia:'Roboto', sans-serif;;
+        }
+        h1{
+            text-align: center;
+            width; 100%;
+            padding: 20px 0 20px 0;
+        }
+        menu{
+            display: flex;
+            justify-content: flex-start;
+            padding: 1em;
+            font-family: var(--tipografia);
+            color: var(--grisoscuro);
+           
+        }
+        menu select, menu a, menu ul{
+            padding: 0 1em;
+        }
+        .baixa{
+            padding-top: 3em;
+            height: 700px;
+            width: 700px;
+            object-fit: cover;
+        }
+        .baixa1{
+            padding-top: 40em;
+            height: 700px;
+            width: 700px;
+           object-fit: cover; 
+        }
+        .baixa2{
+            padding-top: 36em;
+            height: 700px;
+            width: 700px;
+            object-fit: cover; 
+        }
+        .baixa3{
+            padding-top: 30em;
+            height: 700px;
+            width: 700px;
+            object-fit: cover; 
+        }
+        /*FOOTER*/
+        footer{
+            padding: 2em 3em;
+            background: var(--grisoscuro);
+            display: flex;
+            font-family: var(--tipografia);
+            padding-top: 10em;
+        }
+        .col-1{
+            width: 25%;
+            color: var(--gris);
+            font-family: var(--tipografia);
+        }
+        .col-2{
+            width: 25%;
+            color: var(--gris);
+            font-family: var(--tipografia);
+        }
+        .col-3{
+            width: 25%;
+            color: var(--gris);
+            font-family: var(--tipografia);
+        }
+        .col-4{
+            width: 25%;
+            color: var(--gris);
+            font-family: var(--tipografia);
+        }
+        footer a{
+            color: white;
+            padding: 0.5em 1em;
+            background: var();
+            display: flex;
+            font-family: var(--tipografia);
+        }
+        .container{
+            display: grid;
+            grid-template: repeat(4,1fr)/repeat(4,1fr);
+            grid-gap: 10px;
+        }
+        main figure:first-child{
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+        /*main figure:second-child{
+            grid-column: span 3;
+            grid-row: span 1;
+        }*/
+        figure{
+            font-size: 0.85em;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>
+    <img src="img/logo/logo.png">
+    </h1>
+    <menu>
+        <a>Products</a>
+        <a>Stockists</a>
+        <a>About us</a>
+    </menu>
+     <main class="container">
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(1).jpeg" alt="">
+        </figure>
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(2).jpeg" alt="">
+        </figure>
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(3).jpeg" alt="">
+        </figure>
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(4).jpeg" alt="">
+        </figure>
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(5).jpeg" alt="">
+        </figure>
+        <figure>
+            <img class="img-fluid" src="img/baixa%20(6).jpeg" alt="">
+        </figure>
+    </main>
+    <!--<div class="container">
+        <h2>Lift the blind to let in the light. A moment of calm before the day begins.
+Featuring Cherry sofa and Kile coffee table</h2>
+    </div>
+    <div>
+    <div class="baixa">
+         <img class="img-fluid" src="img/baixa.jpeg">
+     </div>
+     <div class="baixa1">
+         <img class="img-fluid" src="img/baixa%20(1).jpeg">
+     </div>
+     <div class="baixa2">
+         <img class="img-fluid" src="img/baixa%20(2).jpeg">
+     </div>
+     <div class="baixa3">
+         <img class="img-fluid" src="img/baixa%20(3).jpeg">
+     </div>-->
+     <footer>
+       <div class="col-1">
+            <h5 href="#">Products:</h5>
+            <a href="#">Lounge Chairs</a>
+            <a href="#">Sofas</a>
+            <a href="#">Daybeds</a>
+            <a href="#">Dining Chairs</a>
+            <a href="#">Stools</a>
+            <a href="#">Tables Desks</a>
+            <a href="#">Storage</a>
+         </div>
+         <div class="col-2">
+            <h5>Useful Information:</h5>
+            <a href="#">Our stockists</a>
+            <a href="#">Our designers</a>
+            <a href="#">Product care</a>
+        </div>
+        <div class="col-3">
+            <h5>Company:</h5>
+            <a href="#">News</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col-4">
+            <h5>Conect with us:</h5>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <h5>Access to:</h5>
+            <a href="#">Client login</a>
+        </div>
+    </footer>
+    </header>
+</body>
+</html>
